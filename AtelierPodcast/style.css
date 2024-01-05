@@ -1,0 +1,98 @@
+
+/*page index.html*/
+body {
+    background-color: rgb(124, 110, 110);
+    
+}
+
+.titrePrincipal{
+    margin: 100px 150px 100px 150px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: rgb(235, 235, 191);
+}
+
+@media screen and (max-width: 500px){
+    .titrePrincipal {
+        margin:50px 0 50px 0;
+    }
+}
+
+.podcastList{
+    margin:0px 150px 0 150px;
+    
+}
+
+@media screen and (max-width: 500px){
+    .podcastList {
+        margin:50px 0 50px 0;
+    }
+}
+
+.containerPodcast{
+    border: 2px solid black;
+    margin-bottom: 50px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: rgb(235, 235, 191);
+}
+
+.lien{
+    border: 2px solid gray;
+    padding-left: 10px;
+    border-radius: 8px;
+    width: 100px;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/*page podcast1.html*/
+.retour{
+    border: 2px solid gray;
+    padding-left: 10px;
+    border-radius: 8px;
+    width: 80px;
+    float: right;
+    margin-top: 20px;
+    background-color: rgb(235, 235, 191);
+    
+}
+    
+#podcastTitle{
+    margin: 100px 150px 100px 150px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: rgb(235, 235, 191);
+}
+
+@media screen and (max-width: 500px){
+    #podcastTitle{
+        margin:50px 0 50px 0;
+    }
+}
+
+#podcastDetails{
+    border: 2px solid black;
+    margin: 150px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: rgb(235, 235, 191);
+}
+
+@media screen and (max-width: 500px){
+    #podcastDetails{
+        margin:0;
+    }
+}
+
+.ecouter{
+    border: 2px solid gray;
+    padding-left: 10px;
+    border-radius: 8px;
+    width: 100px;
+}
